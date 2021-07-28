@@ -15,12 +15,15 @@ public:
 
 class clas
 {
-  string name;
+  std::string names;
+public:
+  void namees();
+
 };
- clas::name()
- {
-   std::cout<< "halli hallo"<< std::endl;
- }
+
+void clas::namees(){
+   std::cout<< "halli 1 hallo"<< std::endl;
+ };
 
 
 int main()
@@ -31,6 +34,6 @@ int main()
   an_den_buchen.schnelle_info();
   std::cout<<"helloworld"<<std::endl;
   clas one;
-  one.name;
+  one.namees();
   return 0;
 }
